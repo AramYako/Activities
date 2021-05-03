@@ -50,9 +50,6 @@ namespace APIService
             {
                 var context = serviceScope.ServiceProvider.GetRequiredService<DataContext>();
                 context.Database.EnsureCreated();
-
-                
-
             }
 
             if (env.IsDevelopment())
